@@ -1,0 +1,24 @@
+name: flutter_ali_auth_example
+description: Demonstrates how to use the flutter_ali_auth plugin.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_ali_auth:
+    path: ../
+
+  flutter_smart_dialog: ^4.5.5+6
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
