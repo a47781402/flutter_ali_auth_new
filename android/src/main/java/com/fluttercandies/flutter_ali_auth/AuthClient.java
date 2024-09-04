@@ -461,7 +461,9 @@ public class AuthClient {
 
     public void finishMask() {
         Log.i(TAG, "finishMask");
-        decoyMaskActivity.finish();
+        if (decoyMaskActivity != null) {
+            decoyMaskActivity.finish();
+        }
     }
 
     public void clearCached() {
